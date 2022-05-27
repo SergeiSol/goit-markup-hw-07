@@ -140,7 +140,7 @@ address {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 
 .icon-envelope,
@@ -427,6 +427,7 @@ address {
   line-height: 1.16;
   margin: 0px;
   padding-bottom: 50px;
+  padding-top: 94px;
   text-align: center;
   color: var(--secondary-text-color);
 }
@@ -442,12 +443,13 @@ address {
   padding-bottom: 50px;
 }
 
-.section-title {
-  padding-top: 94px;
-}
-
 .team {
   background-color: #F5F4FA;
+}
+
+.team-section {
+  background: #F5F4FA;
+  padding-bottom: 94px;
 }
 
 .team-list {
@@ -591,7 +593,7 @@ address {
   padding: 0;
 }
 
-.media__iteml:not(:last-child) {
+.media__item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -703,6 +705,10 @@ address {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.flex-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
 .flex-item:hover .flex-top-text {
   transform: translateY(0);
 }
@@ -730,10 +736,6 @@ address {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.flex-item:nth-child(3n) {
-  margin-right: 0px;
-}
-
 .bascdrop {
   position: fixed;
   top: 0px;
@@ -756,14 +758,10 @@ address {
   transform: translate(-50%, -50%);
   min-width: 528px;
   height: 581px;
+  width: 528px;
+  padding: 40px;
   background-color: #fff;
   opacity: 1;
-}
-
-.modal {
-  width: 528px;
-  height: 581px;
-  padding: 40px;
 }
 
 .modal-title {

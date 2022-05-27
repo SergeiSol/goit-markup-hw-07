@@ -26,30 +26,25 @@
 
 .join {
     margin-left: 70px;
-
+&__comein {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
 }
-
-.join__comein {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
 .media {
     list-style: none;
     margin-bottom: 30px;
     display: flex;
     padding: 0;
+    &__item:not(:last-child) {
+            margin-right: 10px;
+        }
 }
-
-.media__iteml:not(:last-child) {
-    margin-right: 10px;
-}
-
 .media__link {
     display: flex;
     align-items: center;

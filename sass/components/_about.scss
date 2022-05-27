@@ -2,26 +2,21 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 94px;
-}
-
-.about-list {
-    display: flex;
-
-
-    padding: 0px;
-    margin: 0px;
-}
-
-.about-item {
-    position: relative;
-    margin-right: 30px;
-    width: 370px;
-    height: 294px;
-
-}
-
-.about-item:last-child {
-    margin: 0;
+    &-list {
+            display: flex;
+            padding: 0px;
+            margin: 0px;
+        }
+                &-item {
+                    position: relative;
+                    margin-right: 30px;
+                    width: 370px;
+                    height: 294px;
+        
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
 }
 
 .item-desk {
