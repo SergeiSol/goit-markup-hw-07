@@ -27,10 +27,12 @@
 .join {
  @media screen and (min-width:768px) 
  {
-    display: inline-block;
+    
    width: 206px;
     height: 80px;
-      margin-left: 70px;
+    margin-top: 10px;
+      margin-left: 165px;
+      
       &__comein {
         font-family: 'Roboto';
         font-style: normal;
@@ -61,7 +63,7 @@
             text-align: center;
             font-family: 'Roboto';
                 font-style: normal;
-                margin-top: 60px;
+                
                 font-weight: 700;
                 font-size: 14px;
                 line-height: 1.14;
@@ -69,10 +71,8 @@
                 color: #FFFFFF;
         }
                  @media screen and (min-width:768px) {
+                     margin: 0;
                      
-                     margin-top: 0;
-                    margin-bottom: 75px;
-                        margin-left: 152px;
                      
                     }
                                         @media screen and (min-width:1200px) {
@@ -85,7 +85,6 @@
             text-align: center;
             list-style: none;
             margin-left: 137px;
-                margin-bottom: 60px;
                 display: flex;
                 padding: 0;
             
@@ -94,7 +93,8 @@
                 }
         }
                  @media screen and (min-width:768px) {
-                     
+                     margin: 0;
+                     padding-top: 20px;
                     
                     }
                 @media screen and (min-width:1200px) {
@@ -220,4 +220,13 @@
 .icon-facebook,
 .icon-linkedin {
     fill: currentColor;
+}
+.flex-wraper {
+    @media screen and (min-width:768px) {
+    
+            display: flex;
+    
+    
+        }
+    
 }
