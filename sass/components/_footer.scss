@@ -13,6 +13,7 @@
 }
 
 .address__item {
+    
     padding-bottom: 9px;
 }
 
@@ -20,11 +21,23 @@
     padding-bottom: 0px;
 }
 
+.address__offise__link {
+    padding-bottom: 9px;
+    color: #FFFFFF;
+    
+}
 .address__link {
-    color: rgba(255, 255, 255, 0.6)
+    color: #AFB1B8;
 }
 
+
 .join {
+    @media screen and (min-width:480px) {
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+
+
  @media screen and (min-width:768px) 
  {
     
@@ -101,7 +114,7 @@
                     list-style: none;
                         margin-bottom: 30px;
                         display: flex;
-                        padding: 0;
+                        
                         margin-left: 80px;
                     
                         &__item:not(:last-child) {
@@ -112,12 +125,15 @@
 
 }
 .media__link {
+    
     display: flex;
     align-items: center;
     justify-content: center;
     width: 44px;
     height: 44px;
     color: #AFB1B8;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
     &:hover {
             background-color: var(--accent-color);
             border-radius: 50%;
