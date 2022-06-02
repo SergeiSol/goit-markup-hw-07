@@ -69,10 +69,16 @@
                 color: #FFFFFF;
         }
                  @media screen and (min-width:768px) {
-                     margin: 0;
-                     margin-left: 165px;
+                     
+                     margin-top: 0;
+                    margin-bottom: 75px;
+                        margin-left: 152px;
                      
                     }
+                                        @media screen and (min-width:1200px) {
+                                            margin-left: 90px;
+                                            margin-top: 10px;
+                                        }
 }
 .media {
     @media screen and (min-width:480px) {
@@ -88,7 +94,7 @@
                 }
         }
                  @media screen and (min-width:768px) {
-                     margin-bottom: 102px;
+                     
                     
                     }
                 @media screen and (min-width:1200px) {
@@ -96,6 +102,7 @@
                         margin-bottom: 30px;
                         display: flex;
                         padding: 0;
+                        margin-left: 80px;
                     
                         &__item:not(:last-child) {
                             margin-right: 10px;

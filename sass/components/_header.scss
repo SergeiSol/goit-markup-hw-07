@@ -95,7 +95,7 @@
 }
 
 .navigation {
-    
+    align-items: center;
     display: flex;
 }
 .active::after {
@@ -156,13 +156,15 @@ address {
 
 .menu-button {
     display: inline-flex;
-    padding-left: 284px;
+    padding-left: 257px;
+    padding-bottom: 25px;
     padding-top: 22px;
-    
+    z-index: 1;
     border: none;
     background-color: transparent;
     @media screen and (min-width:768px) {
             display: none;
+            
     
         }
 }
@@ -171,13 +173,14 @@ address {
 }
 .menu-button .is-open .icon-cross {
     display: block;
+    
 }
 .menu-button .is-open .icon-menu {
     display: none;
 }
 .menu-conteiner {
     
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:768px) {
             height: 796px;
                 background-color: #fff;
                 padding: 20px;
@@ -185,16 +188,19 @@ address {
                 font-size: 20px;
             
                 &.is-open {
-                    
+                    position: fixed;
                     display: block;
-            
+                    top: 0;
+                    border: none;
+                    overflow-y: scroll;
+                    
             
                 }
         }
     
         @media screen and (max-width:767px) {
             display: none;
-            position: absolute;
+            
                 top: 100%;
                 left: 0;
                 width: 100%;

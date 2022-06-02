@@ -18,7 +18,7 @@
 
 .conteiner-main-nav {
     display: flex;
-    width: 1200px;
+    
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 24px;
@@ -47,9 +47,11 @@
                 @media screen and (min-width:768px) {
                     display: inline-block;
                     margin-left: 76px;
+                    text-align: left;
         
                 }
                                 @media screen and (min-width:1200px) {
                                    margin: 0;
+                                   text-align: left;
                                 }
 }
